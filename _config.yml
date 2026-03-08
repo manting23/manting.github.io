@@ -25,12 +25,12 @@ author:
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Lorem ipsum College"
   location         : "Tianjin, China"
-  employer         :
+  employer         : "Tianjin University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "mtxie@tju.edu.cn"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              : 
+  researchgate     : "https://www.researchgate.net/profile/Manting-Xie" 
+  uri              : "https://mathscinet.ams.org/mathscinet/author?authorId=1157382"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0000-0003-3437-9576"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
