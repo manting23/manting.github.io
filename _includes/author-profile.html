@@ -213,6 +213,14 @@
       {% if author.wikipedia %}
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
       {% endif %}
+       {% if site.author.mathscinet %}
+      <!-- MathSciNet 链接 - 兼容图标和样式 -->
+      <a href="{{ site.author.mathscinet | absolute_url }}" class="btn btn--outline btn--mathscinet" target="_blank" rel="noopener noreferrer">
+      <!-- 优先用MathSciNet图标，兼容AMS图标，最后兜底通用图标 -->
+      <i class="ai ai-mathscinet" aria-hidden="true"></i>
+      <span class="label">MathSciNet</span>
+      </a>
+      {% endif %}
     </div>
   </div>
 </div>
